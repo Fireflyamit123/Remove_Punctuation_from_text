@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template is working</title>
+</head>
+<body>
+<h1> welcome to the text analyzer. Enter your text below from</h1>
+<form action="/analyze/" method="get">
+
+    <textarea name="text" style="width: 721px; height: 93px;"></textarea>
+
+    <br>
+
+    <input type="checkbox" name="removepunc" value="on">
+    Remove Punctuations
+
+    <br>
+
+    <button type="submit">Analyze Text</button>
+
+</form>
+</body>
+</html>
